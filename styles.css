@@ -27,14 +27,25 @@ h3 {
 
 .outer {
   position: relative;
-  -webkit-perspective: 170px;
-  perspective: 170px;
   width: 400px;
   height: 550px;
 }
-.main-container {
-  -webkit-transform: rotateX(0deg) rotateY(-3deg);
+.perspective {
+  -webkit-perspective: 170px;
+  perspective: 170px;
+}
+
+.transform {
+    -webkit-transform: rotateX(0deg) rotateY(-3deg);
 transform: rotateX(0deg) rotateY(-3deg);
+}
+
+.flat {
+  margin-left: 30px;
+}
+
+
+.main-container {
   border-radius: 5px;
   border:8px solid yellow;
   width: 377px;
@@ -42,7 +53,6 @@ transform: rotateX(0deg) rotateY(-3deg);
   background: rgba(241,231,103,1);
 background: -moz-linear-gradient(left, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
 box-shadow: 0px 2px 3px 1px rgba(102,89,36,0.56);
-
 }
 
 .main-container::after {
@@ -151,7 +161,10 @@ padding: 6px 0 0 6px;
 
 .desc-container {
   font-size: 12px;
-  padding: 7px 3px 0 3px;
+     padding: 7px 5px 0px 5px;
+  border-left: 1px solid #f8bd55;
+  border-right: 1px solid #f8bd55;
+  border-bottom: 1px solid #f8bd55;
 }
 
 .main-blurb {
@@ -172,15 +185,9 @@ padding: 6px 0 0 6px;
 
 }
 
-hr {
-  height:1px;
-  border: 0;
-  border-top: 1px solid #c4c4c4;
-}
-
 footer {
-  padding-top: 3px;
-  font-size: 8.5px;
+  padding-top: 11px;
+  font-size: 8px;
 }
 .right-ftr-content {
   float: right;
