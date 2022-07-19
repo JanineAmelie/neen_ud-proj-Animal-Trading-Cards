@@ -2,7 +2,7 @@
 Animal Trading Cards
 ---
 
-####Project Overview
+#### Project Overview
 Emulating a traditional/common workflow: A design prototype was handed to me that needs to be translated to an actual functional website.
 
 ![UD project](https://github.com/udacity/fend-animal-trading-cards/blob/master/design-prototype.png?raw=true)
